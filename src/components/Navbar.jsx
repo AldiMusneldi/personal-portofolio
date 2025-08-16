@@ -11,13 +11,13 @@ export default function NavBar() {
   ];
   return (
     <header
-      className="fixed top-0 left-0 w-full z-20 text-black"
+      className="fixed top-0 left-0 w-full z-20 text-white"
       data-aos="fade-up"
       data-aos-delay="300"
     >
       <div className="container mx-auto flex items-center justify-between p-5">
         {/* Logo */}
-        <a href="#home " className="text-4xl font-bold italic text-black">
+        <a href="#home " className="text-4xl font-bold italic text-white">
           Portofolio
         </a>
         {/* Mobile Menu Button */}
@@ -25,7 +25,7 @@ export default function NavBar() {
           className="md:hidden focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <FiMenu className="w-8 h-8 text-black" />
+          <FiMenu className="w-8 h-8 text-white" />
         </button>
         {/* Dekstop Navigation */}
         <nav className="hidden md:flex items-center space-x-7">
@@ -38,7 +38,7 @@ export default function NavBar() {
               {link.name}
             </a>
           ))}
-          <button className="inline-flex text-black border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
+          <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg">
             {""}
             Contact{""}
           </button>
@@ -52,7 +52,7 @@ export default function NavBar() {
       >
         {/* Close Button */}
         <button
-          className="absolute top-5 right-5 text-black"
+          className="absolute top-5 right-5 text-white"
           onClick={() => setIsOpen(false)}
         >
           <FiX className="w-8 h-8" />
@@ -61,15 +61,15 @@ export default function NavBar() {
         {NavbarLinks.map((link) => (
           <a
             key={link.id}
-            href={link.link}
-            className="text-lg text-black hover:text-gray-300"
+            href={link.href}
+            className="text-lg text-white hover:text-gray-300"
             onClick={() => setIsOpen(false)}
           >
             {link.name}
           </a>
         ))}
         {/* Contact Button */}
-        <button className="inline-flex text-black border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg"></button>
+        <button className="inline-flex text-white border-2 py-2 px-6 focus:outline-none hover:bg-purple-800 rounded-full text-lg"></button>
       </div>
     </header>
   );

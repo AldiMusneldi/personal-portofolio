@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 1000, once: true });
   }, []);
   return (
     <main className="bg-gray-950">

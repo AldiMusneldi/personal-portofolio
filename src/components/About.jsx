@@ -28,18 +28,24 @@ export default function About() {
             About Me
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
-            Saya adalah seorang Front-End Developer yang siap untuk menerapkan
-            keahlian saya dalam membangun UI yang indah, intuitif, dan
-            responsif. Fokus saya adalah menerjemahkan konsep desain dan
-            kebutuhan bisnis menjadi pengalaman web yang mulus, serta mudah
-            diakses, yang dapat menjadi jembatan antara sebuah bisnis dengan
-            para penggunanya.
+            I am a fresh graduate of <strong>Informatics Engineering</strong>{" "}
+            from UPI YPTK Padang. As a <strong>Front-End Develope</strong>r, I
+            focus on creating beautiful, intuitive, and responsive user
+            interfaces. My goal is to transform design concepts and business
+            needs into seamless and accessible web experiences.
             <br />
-            <br />
-            Selain itu, saya juga aktif belajar dan memperdalam keahlian saya
-            dalam teknologi web modern untuk membantu saya dalam membangun
-            aplikasi yang lebih kuat dan menarik.
+            <br />I have hands-on experience with <strong>ReactJS</strong> for
+            frontend development and <strong>Flutter</strong> for mobile.
+            Additionally, I am passionate about exploring modern web animation
+            technologies to create unforgettable user experiences.
           </p>
+          <blockquote className="-mt-3 italic text-md relative">
+            “In programming, the hard part isn’t solving problems, but deciding
+            what problems to solve.”
+            <footer className="inline-block pl-2 text-xs text-gray-400">
+              — Paul Graham
+            </footer>
+          </blockquote>
         </article>
 
         {/* Tools yang digunakan */}
@@ -49,7 +55,7 @@ export default function About() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Berikut adalah daftar tools yang saya gunakan :
+            Here is the stack of technologies that I use :
           </p>
           {/* atur grid cards tools */}
           <div className="tools-box mt-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 lg:flex lg:justify-end">

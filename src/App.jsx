@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Projects from "./components/Projects";
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -11,6 +12,7 @@ function App() {
     <main className="bg-gray-950">
       <Hero />
       <About />
+      <Projects />
     </main>
   );
 }

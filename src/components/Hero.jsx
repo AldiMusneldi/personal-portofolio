@@ -48,10 +48,9 @@ export default function Hero() {
             </h2>
           </header>
           <p className="text-white text-lg max-w-xl mb-8 pt-5">
-            Bringing your digital vision to life through interactive,
-            responsive, and engaging web interfaces. I thrive on exploring
-            modern web animation technologies to create unforgettable
-            experiences.
+            I am passionate about crafting beautiful and seamless user
+            interfaces. I bring designs to life with a focus on creating
+            intuitive and engaging digital experiences for everyone.
           </p>
           <div className="flex gap-4">
             {/* Button Download */}

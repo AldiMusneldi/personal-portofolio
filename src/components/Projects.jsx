@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="text-white">
         <h1 className="text-center text-4xl font-bold mb-2">My Projects</h1>
         <p className="text-base/loose text-center opacity-50">
-          Berikut ini beberapa proyek yang telah saya buat.
+          A look into some of the things I've built.
         </p>
 
         {/* Cards */}
